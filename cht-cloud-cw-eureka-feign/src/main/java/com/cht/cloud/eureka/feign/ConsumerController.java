@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ConsumerController {
 
     @Autowired
-    private ConsumerService consumerService;
+    ConsumerService consumerService;
 
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     public Integer add() {
