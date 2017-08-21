@@ -26,6 +26,9 @@
 
     <modules>
         <module>cht-cloud-cw-eureka</module>
+        <module>cht-cloud-cw-eureka-client</module>
+        <module>cht-cloud-cw-eureka-ribbon</module>
+        <module>cht-cloud-cw-eureka-feign</module>
     </modules>
 
     <dependencyManagement>
