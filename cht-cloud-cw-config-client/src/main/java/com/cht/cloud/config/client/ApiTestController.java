@@ -26,7 +26,6 @@ public class ApiTestController {
     public String doTest() {
 //        return this.from;
 //        List<PropertySource> list = env.getPropertySources();
-        String from = env.getProperty("from");
-        return "test";
+        return  env.getProperty("from");
     }
 }
