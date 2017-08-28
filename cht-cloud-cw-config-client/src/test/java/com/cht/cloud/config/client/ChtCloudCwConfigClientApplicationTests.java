@@ -1,4 +1,4 @@
-package com.cht.cloud.eureka;
+package com.cht.cloud.config.client;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ApplicationEurekaTests {
+public class ChtCloudCwConfigClientApplicationTests {
 
 	@Test
 	public void contextLoads() {

@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableDiscoveryClient
 @SpringBootApplication
 @EnableCircuitBreaker
-public class ApplicationEurekaRibbon {
+public class Application {
 
 	@Bean
 	@LoadBalanced
@@ -20,6 +20,6 @@ public class ApplicationEurekaRibbon {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApplicationEurekaRibbon.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 }
