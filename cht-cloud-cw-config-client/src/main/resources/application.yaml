@@ -1,2 +1,6 @@
 server:
   port: 7002
+management:
+  security:
+    enabled: false
+
