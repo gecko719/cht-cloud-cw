@@ -5,3 +5,4 @@ spring:
     active: native
 server:
   port: 7001
+
