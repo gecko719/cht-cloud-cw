@@ -31,6 +31,7 @@
         <module>cht-cloud-cw-eureka-feign</module>
         <module>cht-cloud-cw-config-server</module>
         <module>cht-cloud-cw-config-client</module>
+        <module>cht-cloud-cw-zuul</module>
     </modules>
 
     <dependencyManagement>

@@ -1,0 +1,25 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: api-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
+zuul:
+  routes:
+    api:
+      path: /api/**
+      serviceId: compute-service
+  host:
+      connect-timeout-millis: 5000
+      socket-timeout-millis: 10000
+
+hystrix:
+    command:
+        default:
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 10000
